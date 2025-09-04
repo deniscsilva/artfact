@@ -30,7 +30,7 @@ jobs:
 
       - name: Endereço para obter artefatos
         run: |
-          echo "${{ step.upload-artifact.outputs.artifact-url }}"
+          echo "${{ steps.upload-artifact.outputs.artifact-url }}"
 
   download-artifact:
     runs-on: ubuntu-latest
