@@ -22,7 +22,7 @@ jobs:
         uses: actions/upload-artifact@v4
         id: upload-artifact
         with:
-          name: ${{ env.nome-artefato }}"
+          name: "${{ env.nome-artefato }}"
           run: ./artefatos
 
       - name: Listagem de arquivos
