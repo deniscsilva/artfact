@@ -19,7 +19,7 @@ jobs:
           echo "Arquivos de teste 04" > ./artefatos/quarto_arquivo.txt
 
       - name: Envio dois arquivos
-        uses: uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         id: upload-artifact
         with:
           name: ${{ env.nome-artefato }}"
