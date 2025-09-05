@@ -23,7 +23,7 @@ jobs:
         id: upload-artifact
         with:
           name: "${{ env.nome-artefato }}"
-          run: ./artefatos
+          path: ./artefatos
 
       - name: Listagem de arquivos
         run: ls
